@@ -8,7 +8,24 @@
     <title>Alarm Clock</title>
   </head>
   <body>
-    <h1>Alarm Clock</h1>
-    <h2 id="current_time"></h2>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Alarm Clock</h1>
+      </div>
+    </div>
+    <div class="container">
+      <h2 id="current_time"></h2>
+      <br>
+      <br>
+      <form id="set_alarm">
+        <h3>Set an Alarm:</h3>
+        <label for="hour">Hour/Minute:</label>
+        <input type="time" name="hours" value="">
+        <button class="btn btn-success" type="submit" name="button">Make Alarm!</button>
+      </form>
+
+    </div>
+
+
   </body>
 </html>
