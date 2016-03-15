@@ -1,6 +1,8 @@
-// var moment = require('./../bower_components/moment/moment.js');
+var showTime = require('./../js/Clock.js').showTime;
 
 $(document).ready(function() {
-  $('#current_time').text(moment().format(" h:mm:ss a, MMMM Do YYYY"));
-  console.log("I'm working!!!!");
+  showTime();
+  console.log("I'm working!!");
+
+
 });
