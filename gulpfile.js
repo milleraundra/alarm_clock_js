@@ -67,7 +67,7 @@ gulp.task('bowerJS', function() {
 
 gulp.task('bowerCSS', function() {
   return gulp.src(lib.ext('css').files)
-    .pipe(concat('endor.css'))
+    .pipe(concat('vendor.css'))
     .pipe(gulp.dest('./build/css'));
 });
 
