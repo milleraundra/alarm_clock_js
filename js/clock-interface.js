@@ -3,5 +3,4 @@ var Clock = require('./../js/Clock.js').Clock;
 
 $(document).ready(function() {
   Clock();
-  // console.log("I'm working!!");
 });
